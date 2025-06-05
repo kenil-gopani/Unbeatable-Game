@@ -21,7 +21,7 @@ Try the Unbeatable Game here: [Live Demo](https://kenil-gopani.github.io/Unbeata
 
 ## 📸 Screenshots
 
-![Unbeatable Game Screenshot][Tic tac toe](https://i.postimg.cc/3wCZJY90/Capture2.png)
+![Unbeatable Game Screenshot ](https://i.postimg.cc/3wCZJY90/Capture2.png)
 [Connect Four](https://i.postimg.cc/CKVNgzCV/Capture4.png)
 
 ## 📂 Getting Started
