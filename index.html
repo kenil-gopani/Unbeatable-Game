@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tic Tac Toe Game -->
+        <div class="game-card">
+            <h1 class="animate__animated animate__fadeIn">Unbeatable Tic Tac Toe</h1>
+            <div class="game-board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="resetBtn" class="btn mt-4 animate__animated animate__fadeIn">New Game</button>
+            <div id="message" class="mt-4 h4 animate__animated"></div>
+        </div>
+
+        <!-- Connect Four Game -->
+        <div class="game-card">
+            <h1 class="animate__animated animate__fadeIn">Unbeatable Connect Four</h1>
+            <div class="connect4-board">
+                <div class="connect4-cell" data-col="0" data-row="0"></div>
+                <div class="connect4-cell" data-col="1" data-row="0"></div>
+                <div class="connect4-cell" data-col="2" data-row="0"></div>
+                <div class="connect4-cell" data-col="3" data-row="0"></div>
+                <div class="connect4-cell" data-col="0" data-row="1"></div>
+                <div class="connect4-cell" data-col="1" data-row="1"></div>
+                <div class="connect4-cell" data-col="2" data-row="1"></div>
+                <div class="connect4-cell" data-col="3" data-row="1"></div>
+                <div class="connect4-cell" data-col="0" data-row="2"></div>
+                <div class="connect4-cell" data-col="1" data-row="2"></div>
+                <div class="connect4-cell" data-col="2" data-row="2"></div>
+                <div class="connect4-cell" data-col="3" data-row="2"></div>
+                <div class="connect4-cell" data-col="0" data-row="3"></div>
+                <div class="connect4-cell" data-col="1" data-row="3"></div>
+                <div class="connect4-cell" data-col="2" data-row="3"></div>
+                <div class="connect4-cell" data-col="3" data-row="3"></div>
+            </div>
+            <button id="resetConnect4Btn" class="btn mt-4 animate__animated animate__fadeIn">New Game</button>
+            <div id="connect4Message" class="mt-4 h4 animate__animated"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="code.js">
+
+    </script>
+</body>
+</html> 
